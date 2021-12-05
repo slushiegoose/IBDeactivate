@@ -17,7 +17,7 @@ LENGTH_OF_GUT_PATH = 700 #in cm
 
 
 
-def create_random_gut_path_array(length):
+def create_random_gut_path_array(length: int) -> float:
     """generates a random gut path array (normally would be sent from 1st pill)
 
     Args:
@@ -33,7 +33,7 @@ def create_random_gut_path_array(length):
 
 
 
-def calcualte_gut_path_proportion(gut_path_array):
+def calcualte_gut_path_proportion(gut_path_array: float) -> float:
     """calculate the gut path proportion
 
     Args:
@@ -53,8 +53,8 @@ def calcualte_gut_path_proportion(gut_path_array):
 def main():
     gut_path_array = create_random_gut_path_array(LENGTH_OF_GUT_PATH)
     gut_proportion_array = calcualte_gut_path_proportion(gut_path_array)
-    print("The gut inflamation array recieved is",(gut_path_array))
-    print("The recommended dosage for each section of gut is",(gut_proportion_array))
+    print(f"The gut inflamation array recieved is {gut_path_array}")
+    print(f"The recommended dosage for each section of gut is {gut_proportion_array}")
 
 
 if __name__ == '__main__':
