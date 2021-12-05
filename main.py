@@ -2,9 +2,11 @@
 # author: IBDeactivate team
 # date: 04/12/21
 #version: 1.0
-# description: a simple model to simulate how the first pill collects the required data and how the second pill utilise that data
-# the idea is that it breaks the small intestine length into sections and then calculates the proportion of the gut that is inflamated
-# the gut proportion is then used to calculate the dosage of the drug
+# description:
+    # This project outlines how a 2-pill solution can help with Inflammatory bowel disease (IBD).
+    # A simple model to simulate how the first pill collects the required data and how the second pill utilise that data.
+    # The idea is that it breaks the small intestine length into sections and then calculates the proportion of the gut that is inflammed
+    # The gut proportion is then used to calculate the dosage of the drug at that location. This ensures targetted and effective drug delivery.
 
 import random
 
